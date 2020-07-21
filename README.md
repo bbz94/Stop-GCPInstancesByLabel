@@ -1,4 +1,5 @@
 # Stop-GCPInstancesByLabel
+> Original article https://medium.com/better-programming/how-to-save-money-on-google-cloud-platform-22bf4c302d32
 ```bash
 git clone https://github.com/bbz94/Stop-GCPInstancesByLabel
 cd Stop-GCPInstancesByLabel
