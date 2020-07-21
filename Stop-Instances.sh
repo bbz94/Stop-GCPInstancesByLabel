@@ -58,11 +58,11 @@ gcloud functions deploy stopInstancePubSub   \
 gcloud scheduler jobs create pubsub start-instances-on-sob \
     --schedule "$startSchedule" \
     --topic start-instance-event \
-    --message-body $body \
+    --message-body $startBody \
     --time-zone $timeZone
 
 gcloud scheduler jobs create pubsub stop-instances-on-cob \
     --schedule "$stopSchedule" \
     --topic stop-instance-event \
-    --message-body $body \
+    --message-body $stopBody \
     --time-zone $timeZone
