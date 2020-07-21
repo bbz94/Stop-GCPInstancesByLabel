@@ -26,7 +26,7 @@ gcloud projects add-iam-policy-binding $projectId \
 
 # Creating the Pub/Sub Topics
 gcloud pubsub topics create start-instance-event
-gcloud pubsub topics create stop-instances
+gcloud pubsub topics create stop-instance-event
 
 # Creating Cloud Functions
 cd $Home
